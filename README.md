@@ -48,10 +48,10 @@ Installation
 ### Gitosis / Gitolite setups
 
 1. Add garuda to your conf file, then clone it locally
-2. Navigate to the home directory of your gitosis / gitolite user on your server
+2. Navigate to the home repositories directory of your gitosis / gitolite user on your server (e.g., home/gituser/repositories)
 3. Run this in the terminal (on the server as the git user, otherwise use sudo)
 
-        ruby -e "$(curl -fsS https://github.com/rpflorence/garuda/raw/master/install/gito.rb)"
+        ruby -e "$(curl -fsS https://raw.github.com/rpflorence/garuda/master/install/gito.rb)"
 
 4. If you used `sudo` in step 3, change the ownership to your gitolite / gitosis user (here it's git, use whatever yours is)
 
